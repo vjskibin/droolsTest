@@ -36,7 +36,7 @@ public class Shopping {
         ksession.fireAllRules();
 
         ksession.delete( beerPurchaseHandle );
-        System.out.println( "Customer mark has returned the hat" );
+        System.out.println( "Customer " + vito.getName() + " has returned the " + beer.getName() );
         ksession.fireAllRules();
     }
 
